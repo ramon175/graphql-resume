@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 import { format } from "date-fns";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import prismStyle from "react-syntax-highlighter/dist/esm/styles/prism/xonokai";
-import {print} from 'graphql/language/printer';
+import { print } from "graphql/language/printer";
 
 const ResumeQuery = gql`
   query ResumeQuery {
